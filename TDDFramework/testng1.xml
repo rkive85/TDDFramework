@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Yahoo Suite">
+<test name="Yahoo Test Cases">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="https://login.yahoo.com"></parameter>
+<parameter name="username" value="test@yahoo.co.in"></parameter>
+<classes>
+<class name="com.TDDFramework.TestNGBasics.YahooTestParam"></class>
+</classes>
+</test>
+</suite>
+
+
+
+

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testng Suite">
+<test name="Test Cases">
+<classes>
+<class name="com.TDDFramework.TestNGBasics.GoogleTitleTestAssert"/>
+<class name="com.TDDFramework.TestNGBasics.ExpectedException"/>
+<class name="com.TDDFramework.TestNGBasics.InvocationCount"/>
+<class name="com.TDDFramework.TestNGBasics.TestNGBasicsAnnotations"/>
+<class name="com.TDDFramework.TestNGBasics.TestNGFeaturesDependsOnMethods"/>
+<class name="com.TDDFramework.TestNGBasics.GoogleTest"/>
+</classes>
+</test>
+</suite>

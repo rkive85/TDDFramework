@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Yahoo Suite]">
+  <test thread-count="5" name="Yahoo Test Cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://in.mail.yahoo.com"/>
+    <parameter name="username" value="test@yahoo.co.in"/>
+    <classes>
+      <class name="com.TDDFramework.TestNGBasics.YahooTestParam">
+        <methods>
+          <include name="yahooTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TDDFramework.TestNGBasics.YahooTestParam -->
+    </classes>
+  </test> <!-- Yahoo Test Cases(failed) -->
+</suite> <!-- Failed suite [Yahoo Suite] -->

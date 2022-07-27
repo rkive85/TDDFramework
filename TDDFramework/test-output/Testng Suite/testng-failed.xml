@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testng Suite]">
+  <test thread-count="5" name="Test Cases(failed)">
+    <classes>
+      <class name="com.TDDFramework.TestNGBasics.TestNGFeaturesDependsOnMethods">
+        <methods>
+          <include name="HomePageTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.TDDFramework.TestNGBasics.TestNGFeaturesDependsOnMethods -->
+      <class name="com.TDDFramework.TestNGBasics.ExpectedException">
+        <methods>
+          <include name="exceptionHandling1"/>
+        </methods>
+      </class> <!-- com.TDDFramework.TestNGBasics.ExpectedException -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Testng Suite] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo Suite" duration-ms="18836" started-at="2022-07-26T05:16:52Z" finished-at="2022-07-26T05:17:11Z">
+    <groups>
+    </groups>
+    <test name="Yahoo Test Cases" duration-ms="18836" started-at="2022-07-26T05:16:52Z" finished-at="2022-07-26T05:17:11Z">
+      <class name="com.TDDFramework.TestNGBasics.YahooTestParam">
+        <test-method status="PASS" signature="yahooTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TDDFramework.TestNGBasics.YahooTestParam@29ee9faa]" name="yahooTest" duration-ms="18798" started-at="2022-07-26T05:16:52Z" finished-at="2022-07-26T05:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@yahoo.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooTest -->
+      </class> <!-- com.TDDFramework.TestNGBasics.YahooTestParam -->
+    </test> <!-- Yahoo Test Cases -->
+  </suite> <!-- Yahoo Suite -->
+</testng-results>
